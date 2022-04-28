@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.background-img {
+  position: absolute;
+  background-size: 111px 74px;
+}
+
+.navigation {
+  background-size: 20px 14px;
+}
+
+h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+p {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: solid #1a2236;
+}
+
+h2 {
+  border: 1px solid #1a2236;
+  padding: 12px 60px 11.53px 60px;
+  background-color: #1a2236;
+  margin-top: 20px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.portfolio-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.background-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-btn {
+  height: 20px;
+  width: 20px;
+  margin: 20px 20px;
+}
+
+.main-header {
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.header-div p {
+  margin-bottom: 20px;
+}
+
+.btn-section {
+  margin: 20px;
+}
+
+.portfolio-header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.main-background {
+  width: 100%;
+}
+
+/* @media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+
+/* /.portfolio-wrap {
+    padding: 20px;
+  }
+}
+*/
