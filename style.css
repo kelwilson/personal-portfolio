@@ -163,7 +163,7 @@ h2 {
   display: inline;
   text-align: left;
 }
-/* 
+
 .info {
   background-color: #1a2236;
   gap: 15px;
@@ -180,7 +180,7 @@ h2 {
   background: #1a2236;
   padding: 5px 7px;
 }
-
+/* 
 .more-info > button {
   background: #1a2236;
   border: 2px solid white;
