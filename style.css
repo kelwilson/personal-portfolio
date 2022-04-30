@@ -185,6 +185,7 @@ h2 {
   background: #1a2236;
   border: 2px solid white;
   color: white;
+  cursor: pointer;
 }
 
 .fas {
@@ -219,13 +220,14 @@ h2 {
   color: #fff;
   padding: 16px 120px;
   margin: 20px;
+  cursor: pointer;
 }
 
 .more-info-1 {
   padding: 10px;
   display: grid;
 }
- 
+
 .more-info-2 {
   background: #1c528a;
   padding: 16px;
@@ -277,4 +279,4 @@ h2 {
     padding: 20px;
   }
 }
-*/ 
+*/
