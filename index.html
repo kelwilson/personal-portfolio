@@ -235,59 +235,61 @@
       </div>
       <footer class="footer">
       <section>
-        <div class="background-img">
+        <div class="background-img1">
         <img src="images/image_geometry_1@2x.png" class="background-image" alt=""> 
         </div>
 
-        <div>
-          <h2>Get started</h2>
+       
+          <h3 class="footer-header">Get started</h3>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-        </div>
+          <p class="footer-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      
       </section>
 
-      <div class="form">
-        <form action="https://formspree.io/f/xqkwbzdb" method="post">
+      <div >
+        <form class="form" action="https://formspree.io/f/mqkngogp" method="POST">
 
-          <ul>
-            <li class="name">
-          <label>
-            <input type="text" id="name" name="name" required placeholder="Your name" maxlength="30">
-          </label>
-          </li>
-           <li class="email">
-          <label>
-            <input type="email" id="mail" name="email" required placeholder="Your email">
-          </label>
-          </li>
-          <li class="text-area">
-            <label>
-             <textarea name="textarea" id="text" cols="30" rows="10" required maxlength="500"> Enter your message here...
-            </textarea>
-            </label>
-           </li>
-          </ul> 
-        </form>
-        </div>
+          <div class="form-container">
+            <label class="form-label" for="Username"></label>
+            <input type="text" class="name" id="Username" name="Username" placeholder="Your name" maxlength="30" required>
+           </div>
+
+           <div class="form-container">
+             <label class="form-label" for="email"></label>
+            <input type="email" class="email" id="email" name="email"  placeholder="Your email" required>
+            </div>
+
+            <div class="form-container">
+              <label class="form-label" for="message"></label>
+            <textarea class="text-area" id="message" name="Message" required rows="10" maxlength="500">Enter your message here...</textarea>
+            </div>
+
         <div class="start-btn-div">
-          <button type="button" class="start-btn">Start collaboration</button>
+          <button type="button" class="start-btn-2">Start collaboration</button>
         </div>
 
-        <div class="credentials">
-        <a href="https://github.com/kelwilson">Get my Resume</a>
-        <img src="images/ic_link_teal.svg" alt="">
-        </div> 
+        </form>
+
+      </div>
+    
+        <nav class="credentials">
+
+          <div class="credentials-div">
+        <a href="https://github.com/kelwilson" class="resume-link">Get my Resume </a>
+         <img src="images/ic_link_teal.svg" class="link-img" alt="">
+      </div>
 
         <div class="contact-handle">
-          <ul>
-            <li><img src="images/ic_stackoverflow.png" alt=""></li>
-            <li><img src="images/Vector.png" alt=""></li>
-            <li><img src="images/Vector-1.png" alt=""></li>
-            <li><img src="images/vector-2.png" alt=""></li>
-            <li><img src="images/Vector-3.png" alt=""></li>
-            <li><img src="images/Vector-4.png" alt=""></li>
+          <ul class="list-items" >
+            <li class="list-items-1"><img src="images/ic_stackoverflow.png" alt=""></li>
+            <li class="list-items-2"><img src="images/Vector.png" alt=""></li>
+            <li class="list-items-3"><img src="images/Vector-1.png" alt=""></li>
+            <li class="list-items-4"><img src="images/vector-2.png" alt=""></li>
+            <li class="list-items-5"><img src="images/Vector-3.png" alt=""></li>
+            <li class="list-items-6"><img src="images/Vector-4.png" alt=""></li>
           </ul>
         </div>
+        </nav>
       </footer>
     </section>
 </html>
