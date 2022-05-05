@@ -281,7 +281,7 @@ h2 {
   align-self: baseline;
 }
 
-/* .footer {
+.footer {
   left: -2px;
   top: 4129px;
   margin-top: 50px;
@@ -318,7 +318,7 @@ h2 {
   padding: 16px;
   color: #1a2236;
 }
-
+/*
 .form {
   display: flex;
   flex-direction: column;
