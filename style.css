@@ -529,3 +529,8 @@ button:disabled {
   color: #010203;
   border: 1px solid #e5e5e5;
 }
+
+
+@media all and (max-width:500px) {
+   
+} 
