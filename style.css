@@ -320,6 +320,7 @@ h2 {
 }
 
 .form {
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
@@ -511,4 +512,20 @@ h2 {
   height: 24px;
   right: 16px;
   top: 4846px;
+}
+
+button:hover {
+  background-color: #0c2a75;
+  color: #fff;
+}
+
+button:active {
+  background-color: #052b8a;
+  transition: 0.3s;
+}
+
+button:disabled {
+  background-color: #fff;
+  color: #010203;
+  border: 1px solid #e5e5e5;
 }
