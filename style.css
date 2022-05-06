@@ -281,11 +281,251 @@ h2 {
   align-self: baseline;
 }
 
-/* @media only screen and (max-width: 375px) {
-  /* For mobile phones: */
-
-/* /.portfolio-wrap {
-    padding: 20px;
-  }
+.footer {
+  left: -2px;
+  top: 4129px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+  background: #f9f9fa;
 }
-*/
+
+.background-image {
+  width: 111px;
+  height: 74.02px;
+}
+
+.footer-header {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  padding: 16px;
+  color: #1a2236;
+}
+
+.footer-p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  padding: 16px;
+  color: #1a2236;
+}
+
+.form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.form-label {
+  padding: 10px;
+}
+
+.name {
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4400px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 33px;
+}
+
+.email {
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4400px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 33px;
+}
+
+.text-area {
+  width: 288px;
+  height: 112px;
+  left: 16px;
+  top: 4520px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 16px;
+  padding-top: 4px;
+}
+
+.start-btn-div {
+  padding: 16px;
+}
+
+.start-btn-2 {
+  width: 100%;
+  border: 1px solid #1a2236;
+  padding: 12px 90px;
+  background-color: #1a2236;
+  margin-top: 20px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.credentials {
+  width: 100%;
+  height: 150px;
+  top: 4760px;
+  margin-top: 64px;
+  background: #1a2236;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: space-around;
+}
+
+.credentials-div {
+  padding: 16px;
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.resume-link {
+  width: 127px;
+  height: 24px;
+  left: 16px;
+  top: 4792px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #92dcdc;
+}
+
+.link-img {
+  width: 22px;
+  height: 22px;
+  left: 158px;
+  top: 4793px;
+  background: #92dcdc;
+}
+
+.contact-handle {
+  width: 100%;
+  display: inline;
+  text-align: left;
+}
+
+.list-items {
+  width: 100%;
+  height: 24px;
+  left: 16px;
+  top: 4846px;
+  background-color: #1a2236;
+  gap: 29px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.list-items-1 {
+  width: 24px;
+  height: 24px;
+  left: 16px;
+  top: 4846px;
+}
+
+.list-items-2 {
+  width: 24px;
+  height: 24px;
+  left: 69px;
+  top: 4846px;
+}
+
+.list-items-3 {
+  width: 24px;
+  height: 24px;
+  left: 122px;
+  top: 4846px;
+}
+
+.list-items-4 {
+  width: 24px;
+  height: 24px;
+  left: 175px;
+  top: 4846px;
+}
+
+.list-items-5 {
+  width: 24px;
+  height: 24px;
+  left: 228px;
+  top: 4846px;
+}
+
+.list-items-6 {
+  width: 24px;
+  height: 24px;
+  right: 16px;
+  top: 4846px;
+}
+
+button:hover {
+  background-color: #0c2a75;
+  color: #fff;
+}
+
+button:active {
+  background-color: #052b8a;
+  transition: 0.3s;
+}
+
+button:disabled {
+  background-color: #fff;
+  color: #010203;
+  border: 1px solid #e5e5e5;
+}
